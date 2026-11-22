@@ -1,0 +1,45 @@
+{
+  "name": "agendamento-ts",
+  "version": "1.0.0",
+  "description": "API para profissionais publicarem serviços e horários de atendimento, e clientes marcarem, remarcarem e cancelarem horários.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macedoPedro20/agendamento-ts.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [],
+  "author": "Pedro Augusto Macedo",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/macedoPedro20/agendamento-ts/issues"
+  },
+  "homepage": "https://github.com/macedoPedro20/agendamento-ts#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.10.1",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.73.0"
+  }
+}
